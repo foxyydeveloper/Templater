@@ -13,6 +13,6 @@ async def on_ready():
 
 @bot.command()
 async def ping(ctx):
-    await ctx.send(f"Pong! {round(bot.latency * 1000)}
+    await ctx.send(f"Pong! {round(bot.latency * 1000)})
 
 bot.run(os.getenviron("APP_TOKEN"))
